@@ -4,6 +4,10 @@ h1, h2 {
     font-family: 'Vibes', cursive;
 }
 
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
 
 header, footer {
     background-color: #8c483A;
@@ -15,10 +19,6 @@ section {
     background-color: #f2E8D5;
 }
 
-.inlineBlock {
-    display: inline-block;
-    vertical-align: top;
-}
 
 
 
@@ -35,23 +35,24 @@ nav {
     color: #f2E8D5;
     margin: 0 auto;
     text-align: Center;
+    
 
 }
 
 
 ul {
     width: 50%;
-    margin-left: auto;
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
 }
 
-li {
-    padding: 10px 10px 10px 10px;
+
+
+.logo {
+    width: 25%;
+    padding: 1%;
 }
-
-
 
 
 img {
@@ -59,6 +60,7 @@ img {
     width: 50%;
     object-fit: cover;
     border-radius: 50%;
+    padding: 20px 10px;
 }
 
 .heroImg {
@@ -80,7 +82,8 @@ footer {
 
 button {
     background-color: #032F3C;
-    width: 30%;
+    width: 40%;
     color: #f2E8D5;
-    height: 40px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
