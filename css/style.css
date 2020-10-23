@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibes&display=swap');
+
+h1, h2 { 
+    font-family: 'Vibes', cursive;
+}
+
+
+header, footer {
+    background-color: #8c483A;
+    color: #f2E8D5;
+    width: 100%;
+}
+
+section {
+    background-color: #f2E8D5;
+}
+
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+nav {
+    width: 75%;
+    padding: 1%;
+}
+
+
+.content {
+    width: 450px;
+    height: 600px;
+    background-color: #8c483A;
+    color: #f2E8D5;
+    margin: 0 auto;
+    text-align: Center;
+
+}
+
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+img {
+    height: 40%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+footer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.buttonHolder {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #032F3C;
+    width: 30%;
+    color: #f2E8D5;
+    height: 40px;
+}
